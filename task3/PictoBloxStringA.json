@@ -1,0 +1,47 @@
+{
+    "name": "PictoBloxString",
+    "blocks": [
+        {
+            "opcode": "indexOf",
+            "blockType": "reporter",
+            "text": "index of [STRING1] in [STRING2]",
+            "arguments": {
+                "STRING1": {
+                    "type": "string",
+                    "defaultValue": ""
+                },
+                "STRING2": {
+                    "type": "string",
+                    "defaultValue": ""
+                }
+            },
+            "func": "indexOf"
+        },
+        {
+            "opcode": "equal",
+            "blockType": "reporter",
+            "text": "[STRING1] = [STRING2]",
+            "arguments": {
+                "STRING1": {
+                    "type": "string",
+                    "defaultValue": ""
+                },
+                "STRING2": {
+                    "type": "string",
+                    "defaultValue": ""
+                }
+            },
+            "func": "equal"
+        }
+    ],
+    "menus": {
+    },
+    "excludeFromPalette": [
+    ],
+    "translation_map": {
+    }
+}
+
+
+
+

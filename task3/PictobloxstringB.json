@@ -1,0 +1,24 @@
+{
+    "name": "PictoBloxString",
+    "extensionId": "pictobloxstring",
+    "blocks": [
+      {
+        "opcode": "equal",
+        "blockType": "reporter",
+        "text": "strings [STR1] and [STR2] are equal",
+        "arguments": {
+          "STR1": {
+            "type": "string",
+            "defaultValue": ""
+          },
+          "STR2": {
+            "type": "string",
+            "defaultValue": ""
+          }
+        }
+      }
+    ],
+    "menus": {
+    }
+  }
+  
